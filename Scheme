@@ -1,0 +1,138 @@
+{
+    "name": "Countdown timer",
+    "settings": [
+      {
+        "type": "select",
+        "id": "ctdn_brd_style",
+        "label": "Border",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "dotted",
+            "label": "Dotted"
+          },
+          {
+            "value": "solid",
+            "label": "Solid"
+          },
+          {
+            "value": "double",
+            "label": "Double"
+          },
+          {
+            "value": "groove",
+            "label": "Groove"
+          },
+          {
+            "value": "ridge",
+            "label": "Ridge"
+          },
+          {
+            "value": "inset",
+            "label": "Inset"
+          },
+          {
+            "value": "outset",
+            "label": "Outset"
+          },
+          {
+            "value": "dashed",
+            "label": "Dashed"
+          }
+        ],
+        "default": "dashed"
+      },
+      {
+        "type": "range",
+        "id": "ctdn_brd_width",
+        "label": "Border width",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "unit": "px",
+        "default": 2
+      },
+      {
+        "type": "color",
+        "id": "ctdn_brdclr",
+        "label": "Borders",
+        "default": "#949494"
+      },
+      {
+        "type": "color",
+        "id": "ctdn_bkclr",
+        "label": "Background",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "ctdn_hdclr",
+        "label": "Heading",
+        "default": "#278DE7"
+      },
+      {
+        "type": "color",
+        "id": "ctdn_subhdclr",
+        "label": "Subheading",
+        "default": "#9DCEFF"
+      },
+      {
+        "type": "header",
+        "content": "Countdown timer"
+      },
+      {
+        "type": "checkbox",
+        "id": "enabl-countdown",
+        "label": "Enable",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "ctdn-txt",
+        "label": "Text",
+        "default": "Special offer ends in :"
+      },
+      {
+        "type": "color",
+        "id": "ctdn_txtclr",
+        "label": "Text",
+        "default": "#FA8072"
+      },
+      {
+        "type": "color",
+        "id": "ctdn_dtclr",
+        "label": "Date",
+        "default": "#FF0000"
+      },
+      {
+        "type": "range",
+        "id": "cntdwn-rg",
+        "label": "End date",
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "default": 2
+      },
+      {
+        "type": "range",
+        "id": "cntdwn-txt",
+        "label": "Text size",
+        "min": 10,
+        "max": 20,
+        "step": 1,
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "cntdwn-dt",
+        "label": "Date size",
+        "min": 10,
+        "max": 15,
+        "step": 1,
+        "default": 10
+      }
+    ]
+  },
